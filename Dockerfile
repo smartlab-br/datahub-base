@@ -1,4 +1,4 @@
-FROM smartlab/flask-dataviz:latest
+FROM mptrabalho/flask-dataviz:latest
 LABEL maintainer="smartlab-dev@mpt.mp.br"
 
 COPY requirements.txt /app/requirements.txt
