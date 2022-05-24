@@ -1,4 +1,4 @@
-kafka-python==1.4.7
+pika==1.2.1
 redis==3.0.1
 
 impyla==0.17.0
