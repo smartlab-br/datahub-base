@@ -11,7 +11,8 @@ RUN apt-get update -y && \
     pip3 install -r /app/requirements.txt && \
     wget http://dl.cpp.la/Archive/hbase-thrift-0.20.4.patch.tgz && \
     tar -zxvf hbase-thrift-0.20.4.patch.tgz && \
-    python3 hbase-thrift-0.20.4.patch/setup.py install && \
+    cd hbase-thrift-0.20.4.patch && \
+    python3 setup.py install && \
     apt-get remove -y g++ gcc gfortran libopenblas-dev liblapack-dev  wget && \
     apt-get clean
 
