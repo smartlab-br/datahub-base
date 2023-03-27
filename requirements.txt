@@ -1,5 +1,5 @@
 pika==1.2.1
-redis==3.0.1
+redis==4.5.3
 
 impyla==0.18.0
 pykerberos==1.2.4
